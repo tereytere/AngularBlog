@@ -1,0 +1,19 @@
+form {
+  margin-top: 10px;
+  padding: 5px;
+}
+
+fieldset {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: lightgray;
+}
+
+textarea {
+  min-height: 200px;
+}
+
+label {
+  font-weight: 700;
+}

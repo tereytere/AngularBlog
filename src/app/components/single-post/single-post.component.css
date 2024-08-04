@@ -1,0 +1,12 @@
+.card {
+  background-color: lightgray;
+}
+
+.card-body div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bold {
+  font-weight: 700;
+}

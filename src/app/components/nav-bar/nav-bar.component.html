@@ -1,0 +1,39 @@
+<nav>
+  <ul>
+    <li [routerLink]="['/posts']" routerLinkActive="activo">Posts</li>
+    <li><select (change)="onClick($event)">
+        <option selected disabled>Selecciona una categoría</option>
+        <optgroup label="Libros de Ficción">
+          <option value="thriller">Novela negra, thriller o suspense</option>
+          <option value="historic">Novela histórica</option>
+          <option value="romantic">Romántica</option>
+          <option value="sci-fi">Ciencia ficción</option>
+          <option value="dystopian">Distopía</option>
+          <option value="adventure">Aventuras</option>
+          <option value="fantasy">Fantasía</option>
+          <option value="contemporary">Contemporáneo</option>
+          <option value="terror">Terror</option>
+          <option value="paranormal">Paranormal</option>
+          <option value="poetry">Poesía</option>
+          <option value="youth">Juvenil</option>
+          <option value="children">Infantil</option>
+        </optgroup>
+        <optgroup label="Libros de No Ficción">
+          <option value="personal">Autoayuda y superación personal</option>
+          <option value="health">Salud y deporte</option>
+          <option value="manual">Libros prácticos o manuales</option>
+          <option value="memoires">Memorias</option>
+          <option value="biographies">Biografías</option>
+          <option value="cooking">Cocina</option>
+          <option value="travel">Viajes</option>
+          <option value="technical">Libros técnicos y especializados</option>
+          <option value="reference">De consulta y referencia</option>
+          <option value="divulgatory">Divulgativos</option>
+          <option value="textbook">Libros de texto</option>
+          <option value="art">Arte</option>
+        </optgroup>
+      </select>
+    </li>
+    <li [routerLink]="['/new']" routerLinkActive="activo">Publicar</li>
+  </ul>
+</nav>
